@@ -1,4 +1,3 @@
-var htmlWebpackPlugin=require('html-webpack-plugin');
 module.exports = {
 	entry: "./app/index.js",
 	output:{
@@ -17,9 +16,5 @@ module.exports = {
 	resolve:{
 		extensions:['.js','.css','jsx']//自动补全识别后缀
 	},
-	plugins:[
-		new  htmlWebpackPlugin({
-			title:"欢1迎"
-		})
-	]
+	
 }
